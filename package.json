@@ -1,0 +1,23 @@
+{
+  "name": "cleanblog-project",
+  "version": "1.0.0",
+  "description": "CleanBlog project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uyilmazz/nodejs-CleanBlog-project.git"
+  },
+  "author": "u.yilmaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uyilmazz/nodejs-CleanBlog-project/issues"
+  },
+  "homepage": "https://github.com/uyilmazz/nodejs-CleanBlog-project#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
