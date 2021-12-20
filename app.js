@@ -37,7 +37,7 @@ app.put('/posts/edit/:id',postController.updatePost)
 app.delete('/posts/:id',postController.deletePost);
 
 
-const port = 3000;
+const port = process.env.PORT || 5000;
 app.listen(port,() => {
     console.log(`Server initialized from ${port} port`);
 });
